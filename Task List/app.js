@@ -55,6 +55,7 @@ function getTasks(){
 function addTask(e){
 	if(taskInput.value === ''){
 		alert('add task');
+		return false;
 		
 	}
 	// create li element
